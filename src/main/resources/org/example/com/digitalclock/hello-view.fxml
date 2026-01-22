@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.geometry.Pos?>
+
+<VBox fx:controller="org.example.com.digitalclock.HelloController"
+      alignment="CENTER"
+      spacing="20"
+      xmlns="http://javafx.com/javafx/20"
+      xmlns:fx="http://javafx.com/fxml">
+
+
+    <Label fx:id="clockLabel"
+           text="00:00:00"
+           style="-fx-font-family: 'Monospaced';
+                  -fx-font-size: 80px;
+                  -fx-text-fill: #00FF00;
+                  -fx-background-color: #222;
+                  -fx-alignment: center;
+                  -fx-padding: 20px;"
+           alignment="CENTER"/>
+</VBox>
